@@ -3,14 +3,17 @@
 
 ********************PUBLIC METHODS********************
 
-Matrix() --> Default Constructor
+Two-Dimensional Matrix
 
-Matrix( const std::vector<std::vector<Object>> & ) --> Copy Constructor
+Current Public Operations
+- operator[]
+- row()
+- col()
+- setRow()
+- setCol()
+- operator* - Matrix Multiplication
 
-const std::vector<std::vector<Object>> & operator[] ( int ) --> Non-modifiable access to Element
-
-std::vector<std::vector<Object>> & operator[] ( int ) --> Modifiable access to Element
-
-int row() --> return row
-
-int col() --> return column
+Construction
+- No Arguments
+- int rows , int columns
+- Brace-Enclosed Initialization List
