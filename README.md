@@ -1,11 +1,7 @@
 # 2-Dimensional-Matrix-ADT
 2D Matrix ADT
 
-********************PUBLIC METHODS********************
-
-Two-Dimensional Matrix
-
-Current Public Operations
+## Current Public Operations
 - operator[]
 - row()
 - col()
@@ -13,10 +9,10 @@ Current Public Operations
 - setCol()
 - operator* - Matrix Multiplication
 
-Construction
+## Construction
 - No Arguments
 - int rows , int columns
 - Brace-Enclosed Initialization List
 
-In Progress
+## In Progress
 - Addition, Subtraction, and Constant multiplication of 2D Matrices
